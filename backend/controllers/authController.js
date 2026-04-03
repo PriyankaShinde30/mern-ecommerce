@@ -1,0 +1,2 @@
+//logic to register : receive data name, phone, email, password > phone empty? err: check for password empty? err:  > check in db for if account exists? duplication err: create new account > Hash password > save user in db > send mail that registered successfully 
+//logic to login : receive data phone, password > find user by phone ? not found - err : match found - match password ? not correct - err : correct > generate token 
